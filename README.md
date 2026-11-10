@@ -1,8 +1,16 @@
 # finapp
 
+![status: beta](https://img.shields.io/badge/status-beta-orange)
+
 A personal finance dashboard PWA: currency converter, precious metals,
 commodities, crypto, and stocks — installable, offline-capable, and available
 in **English and Arabic (full RTL)**.
+
+> **⚠️ Beta — expect breaking changes.** finapp is pre-1.0 and its direction
+> isn't settled yet. Anything can change between versions: module structure,
+> the worker API, and locally stored data (settings, favorites, history,
+> cached rates). There is no migration path — an update may require clearing
+> the app's local data or reconfiguring the proxy URL.
 
 ## Modules
 
