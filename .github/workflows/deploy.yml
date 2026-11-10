@@ -1,8 +1,9 @@
 name: Deploy to Cloudflare Pages
 
+# Manual-only for now: GitHub Actions is billing-blocked on this account.
+# Run via the Actions tab or `gh workflow run deploy.yml` once unblocked;
+# day-to-day deploys use `pnpm deploy:pages` locally.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 jobs:
