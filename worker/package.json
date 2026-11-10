@@ -1,0 +1,8 @@
+{
+  "name": "finapp-proxy",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "wrangler": "^4.125.0"
+  }
+}

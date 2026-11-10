@@ -1,0 +1,26 @@
+import { create } from "zustand"
+import { persist } from "zustand/middleware"
+
+export type Theme = "dark" | "light"
+
+type ThemeState = {
+  theme: Theme
+  toggleTheme: () => void
+}
+
+export const useThemeStore = create<ThemeState>()(
+  persist(
+    (set) => ({
+      theme: "dark",
+      toggleTheme: () =>
+        set((s) => ({ theme: s.theme === "dark" ? "light" : "dark" })),
+    }),
+    { name: "finapp-theme" },
+  ),
+)
+
+export function applyTheme(theme: Theme) {
+  const root = document.documentElement
+  root.classList.toggle("dark", theme === "dark")
+  root.style.colorScheme = theme
+}
