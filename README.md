@@ -1,6 +1,7 @@
 # finapp
 
 ![status: beta](https://img.shields.io/badge/status-beta-orange)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A personal finance dashboard PWA: currency converter, precious metals,
 commodities, crypto, and stocks — installable, offline-capable, and available
@@ -102,3 +103,7 @@ Rates are for reference only. Parallel-market (street) figures are
 community-reported approximations and can differ significantly from official
 rates. Informal currency exchange is illegal in Algeria — use licensed
 channels.
+
+## License
+
+[MIT](LICENSE) © riad-boussaid
