@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an idea or improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What are you trying to do that finapp doesn't let you (easily) do today?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What would you like to happen? Sketch it — no need for a polished spec.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Willing to contribute?
+      options:
+        - label: I'm open to working on this myself

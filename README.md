@@ -104,6 +104,12 @@ community-reported approximations and can differ significantly from official
 rates. Informal currency exchange is illegal in Algeria — use licensed
 channels.
 
+## Contributing
+
+Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Bug
+reports and feature requests can use the
+[issue templates](.github/ISSUE_TEMPLATE/).
+
 ## License
 
 [MIT](LICENSE) © riad-boussaid
